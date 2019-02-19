@@ -3,7 +3,7 @@ from pymongo import MongoClient
 import ssl
 
 class Connection:
-    def __init__(self, mongoserver, port, username, password):
+    def __init__(self,  mongoserver, port, username, password):
         self.mongoserver = mongoserver
         self.port = port
         self.username = username
