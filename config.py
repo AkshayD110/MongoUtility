@@ -1,5 +1,5 @@
 #Db1
-DB1_CONFIG = {
+PERF_LAB = {
    'mongo_router_ip': '<ip_address_here>',
     'mongo_port':  'port_here',
     'mongo_username': 'username',
@@ -7,10 +7,17 @@ DB1_CONFIG = {
 }
 
 #Db2
-DB2_CONFIG = {
+STORAGE_LAB = {
    'mongo_router_ip': '<ip_address_here>',
     'mongo_port':  'port_here',
     'mongo_username': 'username',
     'mongo_password': 'password',
 }
 
+#Db3
+STORAGE_LAB = {
+   'mongo_router_ip': '<ip_address_here>',
+    'mongo_port':  'port_here',
+    'mongo_username': 'username',
+    'mongo_password': 'password',
+}
